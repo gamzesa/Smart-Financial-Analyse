@@ -41,7 +41,7 @@ Google Gemini API kullanılarak:
 
 ## 📦 Kurulum
 
-### Backend
+## Backend
 
 ```bash
 cd backend
