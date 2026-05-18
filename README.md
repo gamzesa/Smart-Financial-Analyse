@@ -36,7 +36,28 @@ Google Gemini API kullanılarak:
 - Dashboard üzerinde grafik analiz
 - AI destekli finans yorumlama
 - Geçmiş analizleri görüntüleme
+  
+---
 
+## 📦 Kurulum
+
+### 1. Backend'e gir
+cd backend
+
+### 2. Sanal ortam oluştur (opsiyonel ama önerilir)
+python -m venv venv
+venv\Scripts\activate   (Windows)
+
+### 3. .env dosyası oluştur
+GEMINI_API_KEY=your_api_key
+
+### 4. Backend’i çalıştır
+uvicorn main:app --reload
+
+## 💻 Frontend
+cd smart-cart-frontend
+npm install
+npm run dev
 ## 📸 Ekran Görüntüleri
 
 ### 🏠 Dashboard
@@ -54,3 +75,4 @@ Google Gemini API kullanılarak:
 ### 📜 Geçmiş Analizler
 
 ![History](backend/screenshots/AIhistory.png)
+
