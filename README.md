@@ -48,9 +48,11 @@ cd backend
 python -m venv venv
 venv\Scripts\activate
 uvicorn main:app --reload
+```
 
-## 💻 Frontend
+## Frontend
 
+```bash
 cd smart-cart-frontend
 npm install
 npm run dev
