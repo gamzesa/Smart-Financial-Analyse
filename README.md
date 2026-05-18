@@ -55,6 +55,7 @@ Google Gemini API kullanılarak:
 -uvicorn main:app --reload
 
 ## 💻 Frontend
+
 -cd smart-cart-frontend
 -npm install
 -npm run dev
