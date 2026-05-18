@@ -41,16 +41,16 @@ Google Gemini API kullanılarak:
 
 ### 🏠 Dashboard
 
-![Dashboard](./screenshots/dashboard.png)
+![Dashboard](.backend/screenshots/dashboard.png)
 
 ### 💸 Harcamalar
 
-![Transactions](./screenshots/gelirgider.png)
+![Transactions](.backend/screenshots/gelirgider.png)
 
 ### 🧠 AI Analiz
 
-![AI Analysis](./screenshots/analyze.png)
+![AI Analysis](.backend/screenshots/analyze.png)
 
 ### 📜 Geçmiş Analizler
 
-![History](./screenshots/AIhistory.png)
+![History](.backend/screenshots/AIhistory.png)
