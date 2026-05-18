@@ -54,6 +54,7 @@ uvicorn main:app --reload
 cd smart-cart-frontend
 npm install
 npm run dev
+```
 
 ---
 
