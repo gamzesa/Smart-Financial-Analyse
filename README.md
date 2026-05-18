@@ -42,23 +42,23 @@ Google Gemini API kullanılarak:
 ## 📦 Kurulum
 
 ### 1. Backend'e gir
--cd backend
+cd backend
 
 ### 2. Sanal ortam oluştur (opsiyonel ama önerilir)
--python -m venv venv
--venv\Scripts\activate   (Windows)
+python -m venv venv
+venv\Scripts\activate   (Windows)
 
 ### 3. .env dosyası oluştur
--GEMINI_API_KEY=your_api_key
+GEMINI_API_KEY=your_api_key
 
 ### 4. Backend’i çalıştır
--uvicorn main:app --reload
+uvicorn main:app --reload
 
 ## 💻 Frontend
 
--cd smart-cart-frontend
--npm install
--npm run dev
+cd smart-cart-frontend
+npm install
+npm run dev
 
 ---
 
