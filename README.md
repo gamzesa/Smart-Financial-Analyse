@@ -41,7 +41,7 @@ Google Gemini API kullanılarak:
 
 ### 🏠 Dashboard
 
-![Dashboard](.backend/screenshots/dashboard.png)
+![Dashboard](backend/screenshots/AIhistory.png)
 
 ### 💸 Harcamalar
 
