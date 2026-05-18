@@ -45,12 +45,12 @@ Google Gemini API kullanılarak:
 
 ### 💸 Harcamalar
 
-![Transactions](.backend/screenshots/gelirgider.png)
+![Transactions](backend/screenshots/gelirgider.png)
 
 ### 🧠 AI Analiz
 
-![AI Analysis](.backend/screenshots/analyze.png)
+![AI Analysis](backend/screenshots/analyze.png)
 
 ### 📜 Geçmiş Analizler
 
-![History](.backend/screenshots/AIhistory.png)
+![History](backend/screenshots/AIhistory.png)
