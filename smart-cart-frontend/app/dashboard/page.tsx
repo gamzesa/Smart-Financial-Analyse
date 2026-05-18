@@ -3,6 +3,7 @@
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
 
+
 export default function Dashboard() {
   const router = useRouter();
 
@@ -11,13 +12,10 @@ export default function Dashboard() {
     if (!token) router.push("/login");
   }, [router]);
 
-
-  // (Şimdilik) Dashboard layoutu mevcut. Grafik/özet backend'den sonra eklenecek.
-
   return (
     <div style={styles.page}>
       <div style={styles.card}>
-        <h1>💰 Smart Cart AI</h1>
+        <h1>💰 FinPilot AI </h1>
         <p>Finansal Dashboard</p>
 
         <div style={styles.grid}>
@@ -29,6 +27,8 @@ export default function Dashboard() {
             📈 Geçmiş
           </button>
         </div>
+
+
       </div>
     </div>
   );
@@ -65,4 +65,6 @@ const styles: Record<string, React.CSSProperties> = {
     color: "white",
     cursor: "pointer",
   },
+
 };
+

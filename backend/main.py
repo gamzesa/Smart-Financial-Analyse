@@ -4,6 +4,7 @@ from sqlalchemy.orm import Session
 from dotenv import load_dotenv
 from datetime import datetime, date
 from fastapi.middleware.cors import CORSMiddleware
+import requests
 
 from database import SessionLocal, engine
 import models
@@ -185,7 +186,7 @@ def persist_analysis(db: Session, user_id: int, data: UserData, result: dict):
 # =========================
 @app.get("/")
 def home():
-    return {"message": "SmartCart AI Running 🚀"}
+    return {"message": "FinPilot AI Running 🚀"}
 
 
 # =========================
@@ -326,6 +327,7 @@ def extract_json(text: str):
         return None
     except Exception:
         return None
+
 
 
 # =========================

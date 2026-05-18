@@ -17,16 +17,20 @@ type Analysis = {
   transcript?: string;
 };
 
+type Styles = Record<string, React.CSSProperties>;
+
 export default function HistoryPage() {
   const [data, setData] = useState<Analysis[]>([]);
   const [loading, setLoading] = useState(true);
 
-  const token =
-    typeof window !== "undefined" ? localStorage.getItem("token") : null;
+  const token = typeof window !== "undefined" ? localStorage.getItem("token") : null;
 
   useEffect(() => {
     const fetchData = async () => {
       try {
+
+
+
         const res = await fetch("http://127.0.0.1:8000/analyses", {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -71,7 +75,7 @@ export default function HistoryPage() {
   );
 }
 
-const styles: any = {
+const styles: Styles = {
   page: {
     padding: 30,
     background: "#0b1220",
@@ -99,3 +103,4 @@ const styles: any = {
     opacity: 0.8,
   },
 };
+

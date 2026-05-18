@@ -128,10 +128,10 @@ export default function Home() {
     <div style={styles.wrapper}>
       {/* SIDEBAR */}
       <div style={styles.sidebar}>
-        <div style={styles.brand}>💰 SmartCart AI</div>
+        <div style={styles.brand}>💰 FinPilot AI</div>
 
         <button onClick={() => router.push("/")} style={styles.navBtn}>
-          🏠 Ana Sayfa
+          👤 Kullanıcı
         </button>
 
         <button onClick={() => router.push("/transactions")} style={styles.navBtn}>

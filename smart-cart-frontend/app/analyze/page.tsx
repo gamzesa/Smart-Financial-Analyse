@@ -129,7 +129,7 @@ export default function AnalyzePage() {
       <div style={styles.container}>
         <div style={styles.header}>
           <div>
-            <div style={styles.kicker}>SmartCart AI • Kişisel Finans Asistanı</div>
+            <div style={styles.kicker}>FinPilot AI • Kişisel Finans Asistanı</div>
             <h1 style={styles.title}>AI Finans Analizi</h1>
             <p style={styles.subtitle}>
               Gerçek gelir/gider geçmişine göre risk seviyeni ve yatırım dağılımını çıkarıyoruz.
@@ -607,4 +607,3 @@ const styles: Record<string, React.CSSProperties> = {
     fontWeight: 700,
   },
 };
-

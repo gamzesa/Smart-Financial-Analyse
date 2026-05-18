@@ -37,7 +37,7 @@ export default function Page() {
 
   return (
     <main style={{ padding: 40, color: "black", background: "white", minHeight: "100vh" }}>
-      <h1>Smart Cart AI</h1>
+      <h1>FinPilot AI</h1>
 
       <p>Financial Profile Setup</p>
 
